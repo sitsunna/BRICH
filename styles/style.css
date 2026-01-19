@@ -43,6 +43,7 @@ body{
     z-index: -100;
     width: 100vw;
     height: 800px;
+    object-fit: cover;
 }
 
 .header__nav{
