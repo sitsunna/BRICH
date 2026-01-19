@@ -968,6 +968,19 @@ body{
     transform: scale(1.1);
 }
 
+@media screen and (min-width: 1920px) {
+
+    .cycle__cards_card > svg{
+        width: 950px;
+        height: 150px;
+    }
+
+    .cards__card--cycle1::after, .cards__card--cycle2::after, .cards__card--cycle3::after, .cards__card--cycle4::after{
+        top: 50px;
+    }
+
+}
+
 
 @media screen and (max-width: 1440px) {
     
